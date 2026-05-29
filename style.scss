@@ -42,7 +42,7 @@ main{
     box-shadow: 20px 40px 20px --grey-200;
     padding: 2rem;
     border-radius: 0.8rem;
-    color: $white;
+    color: var(--white);
 
     &:nth-child(1){
        background-color: var(--purple-500);
@@ -56,19 +56,19 @@ main{
     }
 
     &:nth-child(3){
-        background-color: $white;
+        background-color: --white;
         color: var(--grey-400);
     }
 
     &:nth-child(4){
-        background-color: $dark-blue;
+        background-color: var(--dark-blue);
         img{
         border:2px solid --purple-300;
        }
     }
 
     &:nth-child(5){
-        background-color: $white;
+        background-color: var(--white);
         color:var(--grey-400);
     }
 }
