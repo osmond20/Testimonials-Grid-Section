@@ -105,14 +105,15 @@ main {
        column-gap: 15px;
   align-items: center;
 }
-.user img {
-  height: 35px;
-  border-radius: 100px;
-}
 .user .user_info, .user .user_info > p {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
   margin: 0;
+}
+
+.user > img {
+  height: 35px;
+  border-radius: 100px;
 }
 
 .testimony > .rating {
