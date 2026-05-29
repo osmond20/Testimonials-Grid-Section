@@ -5,6 +5,8 @@ body {
 }
 
 main {
+  background-color: hsl(214, 17%, 92%);
+  min-height: 100vh;
   padding: 2rem;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;

@@ -23,6 +23,8 @@ body{
 }
 
 main{
+    background-color: $grey-100;
+    min-height: 100vh;
     padding:2rem;
     font-family: $font;
     font-weight: $weight-1;
