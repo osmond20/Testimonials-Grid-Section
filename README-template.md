@@ -28,7 +28,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/testimonials-grid-section-using-grid-fzj5-JZ_Aj)
 - Live Site URL: [Website](https://osmond20.github.io/Testimonials-Grid-Section/)
 
 ## My process

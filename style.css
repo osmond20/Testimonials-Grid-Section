@@ -1,8 +1,21 @@
+:root {
+  --purple-50: hsl(260, 100%, 95%);
+  --purple-300: hsl(264, 82%, 80%);
+  --purple-500: hsl(263, 55%, 52%);
+  --white: hsl(0, 0%, 100%);
+  --grey-100: hsl(214, 17%, 92%);
+  --grey-200: hsl(0, 0%, 81%);
+  --grey-400: hsl(224, 10%, 45%);
+  --grey-500: hsl(217, 19%, 35%);
+  --dark-blue: hsl(219, 29%, 14%);
+  --black:hsl(0, 0%, 7%);
+}
+
 body {
   margin: 0;
   min-height: 100vh;
   width: 100%;
-  background-color: hsl(214, 17%, 92%);
+  background-color: var(--grey-100);
 }
 
 main {
@@ -34,16 +47,16 @@ main {
 }
 
 .grid-child {
-  box-shadow: 20px 40px 20px hsl(0, 0%, 81%);
+  box-shadow: 20px 40px 20px --grey-200;
   padding: 2rem;
   border-radius: 0.8rem;
   color: hsl(0, 0%, 100%);
 }
 .grid-child:nth-child(1) {
-  background-color: hsl(263, 55%, 52%);
+  background-color: var(--purple-500);
 }
 .grid-child:nth-child(1) img {
-  border: 2px solid hsl(264, 82%, 80%);
+  border: 2px solid --purple-300;
 }
 @media (min-width: 40rem) {
   .grid-child:nth-child(1) {
@@ -57,7 +70,7 @@ main {
   }
 }
 .grid-child:nth-child(2) {
-  background-color: hsl(217, 19%, 35%);
+  background-color: var(--grey-500);
 }
 @media (min-width: 40rem) {
   .grid-child:nth-child(2) {
@@ -67,7 +80,7 @@ main {
 }
 .grid-child:nth-child(3) {
   background-color: hsl(0, 0%, 100%);
-  color: hsl(224, 10%, 45%);
+  color: var(--grey-400);
 }
 @media (min-width: 40rem) {
   .grid-child:nth-child(3) {
@@ -79,7 +92,7 @@ main {
   background-color: hsl(219, 29%, 14%);
 }
 .grid-child:nth-child(4) img {
-  border: 2px solid hsl(264, 82%, 80%);
+  border: 2px solid --purple-300;
 }
 @media (min-width: 40rem) {
   .grid-child:nth-child(4) {
@@ -89,7 +102,7 @@ main {
 }
 .grid-child:nth-child(5) {
   background-color: hsl(0, 0%, 100%);
-  color: hsl(224, 10%, 45%);
+  color: var(--grey-400);
 }
 @media (min-width: 40rem) {
   .grid-child:nth-child(5) {
