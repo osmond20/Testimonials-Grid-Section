@@ -2,11 +2,10 @@ body {
   margin: 0;
   min-height: 100vh;
   width: 100%;
+  background-color: hsl(214, 17%, 92%);
 }
 
 main {
-  background-color: hsl(214, 17%, 92%);
-  min-height: 100vh;
   padding: 2rem;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500;
@@ -116,7 +115,7 @@ main {
   margin: 0;
 }
 
-.testimony > strong {
+.testimony > .rating {
   font-size: 1.3rem;
   font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
